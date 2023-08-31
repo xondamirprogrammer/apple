@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+  width: 100%;
+}
+.nav__wrp {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+  background-color: #f9f9fb;
+}
+.nav__wrp .search__icon,
+.bag__icon {
+  margin: 16px;
+  font-size: large;
+}
+.apple__icon {
+  margin: 16px;
+  font-size: 19px;
+}
+.nav__wrp .apple__icon,
+.search__icon,
+.bag__icon:hover {
+  cursor: pointer;
+}
+.dropdown {
+  width: 100%;
+  height: 80vh;
+  background: #000;
+  position: absolute;
+}
+
+.nav__link .title__text {
+  margin: 0 16px;
+  padding: 2.9px;
+}
+.nav__link .title__text:hover {
+  cursor: pointer;
+}
+
